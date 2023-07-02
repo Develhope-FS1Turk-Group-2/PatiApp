@@ -1,0 +1,28 @@
+$color-primary: red;
+$color-tertiary: green;
+$color-b: blue;
+
+.exercise {
+    border: 2px solid $color-primary;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); // Create 4 columns with equal width
+    gap: 0px; // Add a gap between grid items
+}
+  .exercise article {
+    border: 1px solid $color-tertiary; // Add a border to each article
+    padding: 10px; // Add some padding to each article
+    margin: 17px 0px;
+  }
+
+  .colorblue {
+    color: $color-b;
+  }
+
+  .colorred {
+    color: $color-primary;
+  }
+  h1 {
+    text-align: center;
+    color: $color-tertiary;
+    text-decoration: underline $color-tertiary;
+  }
