@@ -1,0 +1,18 @@
+/* Error: 2px^-1 isn't a valid CSS value.
+ *   ,
+ * 5 |   @return unquote("calc(#{$rem-value}rem)");
+ *   |                           ^^^^^^^^^^
+ *   '
+ *   style.scss 5:27  rem()
+ *   style.scss 9:14  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: 2px^-1 isn't a valid CSS value.\a   \2577 \a 5 \2502    @return unquote(\"calc(#{$rem-value}rem)\");\d\a   \2502                            ^^^^^^^^^^\a   \2575 \a   style.scss 5:27  rem()\a   style.scss 9:14  root stylesheet";
+}

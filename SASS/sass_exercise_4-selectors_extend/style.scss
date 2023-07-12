@@ -1,0 +1,36 @@
+@mixin red {
+    color: red;
+}
+
+@mixin article {
+    padding: 10px;
+    display: grid;
+    font-size: 17px;
+    text-align: center;
+}
+
+article {
+    @include red;
+    border: 1px solid green;
+}
+
+.mixin{
+    @include article;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.mixin2 article {
+    @include article;
+    color: green;
+    border: 1px solid blue;
+}
+
+body {
+    border: 1px solid red;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+    text-decoration: underline green;
+  }
