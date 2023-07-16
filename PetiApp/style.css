@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    height: 30%;
+}
+
+.header img {
+    width: 10%;
+    margin-top: 1.5%;
+    margin-left: 5%;
+    justify-content: start;
+}
+.header .nav{
+   display: flex;
+   width: 90%;
+   justify-content: center;
+   /*tam ortalamak ve logonun kapladigi alana yaklastirmak icin -10 margin left -t*/
+   margin-left: -10%;
+}
+.background {
+    margin-top: 2%;
+    background-color:#F1A4A4;
+    width: 30%;
+    height: 40%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background button{
+    background: none;
+    border: none;
+    width: 33%;
+    height: 100%;
+    font-size: 25px;
+    color: white;
+}
+
+/* Hamburger Menu/Menuler eklenicek */
+.background button:hover{
+    cursor:pointer;
+}
+
+.bodyContainer{
+    display: flex;
+    width: 100%;
+}
+
+.leftmenu{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin-left: 5%;
+    
+}
+.leftmenu h1{ font-size: 500%; text-shadow: 2px 2px #F1A4A4;}
+.leftmenu h6{ font-size: 150%; text-shadow: 1.2px 1.2px #F1A4A4; margin-top: -1%;}
+
+.leftmenu .bars .background {
+    align-items: center;
+    height: 25%;
+}
+.leftmenu .bars{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#health{
+    width: 100%;
+    margin-bottom: 6%;
+}
+#product{
+    width: 75%;
+    margin-bottom: 6%;
+}
+#friends{
+    width: 40%;
+}
+
+.cat{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.cat img{
+    margin-left: 50%;
+    margin-top: 53.7%;
+    width: 50%;
+}
