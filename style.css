@@ -49,6 +49,32 @@ body{
     cursor:pointer;
 }
 
+.mainLogin {
+    justify-content: center;
+    width: 16%;
+    height: auto;
+    display: flex;
+    background: url(./materials/LandingSignIn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1.5%;
+    margin-right: 3.5%;
+}
+
+.mainLogin button{
+    justify-self: center;
+    border: none;
+    background: none;
+    margin-left: 18%;
+    margin-bottom: 28%;
+    font-size: 130%;
+    color: white;
+}
+
+.mainLogin button :hover{
+    cursor: pointer;
+}
+
 .bodyContainer{
     display: flex;
     width: 100%;
