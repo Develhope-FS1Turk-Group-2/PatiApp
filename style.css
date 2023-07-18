@@ -19,10 +19,8 @@ body{
 }
 .header .nav{
    display: flex;
-   width: 90%;
+   width: 80%;
    justify-content: center;
-   /*tam ortalamak ve logonun kapladigi alana yaklastirmak icin -10 margin left -t*/
-   margin-left: -10%;
 }
 .background {
     margin-top: 2%;
@@ -63,15 +61,14 @@ body{
 
 .mainLogin button{
     justify-self: center;
+    align-self: center;
     border: none;
     background: none;
-    margin-left: 18%;
-    margin-bottom: 28%;
-    font-size: 130%;
-    color: white;
+    font-size: 2rem;
+    color: black;
 }
 
-.mainLogin button :hover{
+.mainLogin button:hover{
     cursor: pointer;
 }
 
@@ -126,4 +123,12 @@ body{
     padding-left: 20%;
     padding-top: 34%;
     width: 80%;
+}
+
+@media (max-width: 1714px){
+    .nav button
+    {
+        font-size: 110%;
+    }
+
 }
