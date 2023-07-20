@@ -34,7 +34,7 @@ body{
 }
 
 .background button{
-    background: none;
+    background-color:none;
     border: none;
     width: 33%;
     height: 100%;
@@ -45,6 +45,7 @@ body{
 /* Hamburger Menu/Menuler eklenicek */
 .background button:hover{
     cursor:pointer;
+    background-color: #F1A4A4;
 }
 
 .mainLogin {
@@ -131,6 +132,13 @@ body{
     padding-left: 20%;
     padding-top: 34%;
     width: 80%;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    background-color: #F1A4A4;
+}
+.dropdown:hover {
+
+    background-color: #F1A4A4;
 }
 
 @media (max-width: 1714px){
