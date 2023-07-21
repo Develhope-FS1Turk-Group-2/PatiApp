@@ -7,17 +7,21 @@
         <link rel="stylesheet" href="./signup_page.css">
     </head>
     <body>
-        <div class="container">
-            <h1 style="color: gray;">Giriş</h1>
+        <div class="center">
+            <h1>Giriş</h1>
             <form action="#">
-                <label>Email</label>
-                <input type="email" placeholder="johndoe@gmail.com" required>
-                <label >Şifre</label>
-                <input type="password" minlength="6" maxlength="12" required><br><br>
-                <button>Giriş</button>
+                <div class="txt_field">
+                    <input type="email" required>
+                    <span></span>
+                    <label>Eposta</label>
+                </div>
+                <div class="txt_field">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Şifre</label>
+                </div>
+                <p>Bir hesabın yok mu? <a href="./signup_page.html" style="color: #2691d9;">Kayıt ol</a></p>
             </form>
-            <p>Bir hesabın yok mu? <a href="./signup_page.html">Kayıt ol</a></p>
         </div>
-        <img src="cat.png" alt="cat">
     </body>
 </html>
