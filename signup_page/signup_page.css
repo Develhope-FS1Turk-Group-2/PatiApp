@@ -32,6 +32,8 @@ form input {
 button {
     width: 100px;
     background-color: rgb(174, 174, 174);
+    border-radius: 6px;
+    border: 1px solid gray;
     color: aliceblue;
 }
 button:hover {
