@@ -7,6 +7,12 @@
     <title>PatiApp</title>
     <link rel="icon" type="image/png" href="./materials/logo.png">
     <link rel="stylesheet" href="./style.css">
+    <script>
+        function redirectTo(url) {
+            window.location.href = url;
+        }
+    </script>
+    
 </head>
 
 <body>
@@ -15,7 +21,7 @@
         <div class="nav">
             <div class="background">
                 <button>Hizmetler</button>
-                <a class="link" href="biz_kimiz.html">Biz Kimiz</a>
+                <button onclick="redirectTo('./biz_kimiz.html')">Biz Kimiz</button>
                 <button>SSS</button>
             </div>
         </div>
